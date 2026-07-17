@@ -10,7 +10,7 @@ test.describe('Web Table Tests', () => {
         const rowCount = await rows.count();
         console.log(rowCount);
 
-        for (let i = 0; i <= rowCount; i++) {
+        for (let i = 0; i < rowCount; i++) {
             const rowData = await rows.nth(i).locator('td').allInnerTexts();
             console.log(`Row ${i + 1}:`, rowData);
         }

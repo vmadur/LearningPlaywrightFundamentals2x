@@ -1,9 +1,4 @@
 import { chromium } from "playwright";
-import dotenv from "dotenv";
-
-// Credentials live in .env (gitignored) — never hardcode them in a public repo.
-// Copy .env.example -> .env and fill in your own VWO login before running this.
-dotenv.config();
 
 const VWO_USER = process.env.VWO_USER;
 const VWO_PASS = process.env.VWO_PASS;

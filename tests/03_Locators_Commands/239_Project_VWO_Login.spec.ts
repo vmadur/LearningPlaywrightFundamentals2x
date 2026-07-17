@@ -3,7 +3,7 @@
 import { test, expect } from "@playwright/test";
 test("TC#1 - Verify that the app.vwo login is not working and gives you an error with lazy, strict, and auto wait concepts", async ({ page }) => {
 
-    await page.goto("https://app.vwo.com/#login");
+    await page.goto("https://app.vwo.com/#/login");
 
     // Defalt Locators
     //  id, name, className, Tag., Custom Locator (Via CSS selector)

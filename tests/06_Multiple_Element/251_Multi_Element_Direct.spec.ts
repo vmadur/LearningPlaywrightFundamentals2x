@@ -9,7 +9,6 @@ test('Basic verify how to handle multiple elements ', async ({ page }) => {
 
     await page.goto("https://app.thetestingacademy.com/playwright/multiple_element_filter");
     // getByRole, getByText() - not unique
-    await page.pause();
     await page.getByTestId('forgotten-password-link').click();
 
 
