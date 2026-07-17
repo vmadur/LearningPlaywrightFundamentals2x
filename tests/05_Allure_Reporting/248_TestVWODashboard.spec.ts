@@ -1,4 +1,5 @@
 import { test, expect } from "@playwright/test";
+import * as allure from "allure-js-commons";
 
 // Load saved session — already logged in
 test.use({
