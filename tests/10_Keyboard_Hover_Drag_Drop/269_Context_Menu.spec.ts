@@ -14,4 +14,5 @@ test('Right Click', async ({ page }) => {
     await page.getByText('Copy', { exact: true }).first().click();
 
     //await page.getByText('Copy', { exact: true }).first().click();
+    await page.pause();
 });
