@@ -29,7 +29,7 @@ test.describe('Shadow handling', () => {
         await page.getByTestId('card-inside-submit').click();
 
 
-
+        await page.pause();
 
 
     });
